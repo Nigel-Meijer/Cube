@@ -18,6 +18,7 @@ void CubeBufferWriteHandler();
 #define BUFFER_SIZE  		8 * 8
 
 //uint8_t cubeBuffer[4][3][BUFFER_SIZE];
+//uint8_t cubeBuffer[4][3][BUFFER_SIZE];
 struct cubeFrameBuffer
 {
 	uint8_t cubeBuffer[4][3][BUFFER_SIZE];
