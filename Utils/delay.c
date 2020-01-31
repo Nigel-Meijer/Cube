@@ -8,6 +8,7 @@
 #include "delay.h"
 
 extern uint32_t delayCounter;
+
 void DelayInMs(uint32_t ms)
 {
 	delayCounter = ms;
